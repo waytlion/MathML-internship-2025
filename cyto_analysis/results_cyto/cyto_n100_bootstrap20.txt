@@ -1,0 +1,71 @@
+Log file created at: D:\Data\studium\Master\2_semester\math_ml\notears\cyto_analysis\detailed_results\output_20250707_161606.txt
+Results will be saved to: D:\Data\studium\Master\2_semester\math_ml\notears\cyto_analysis\detailed_results
+Original dataset shape: (7466, 11)
+Adjacency matrix: (11, 11)
+ dataset shape after subsampling: (100, 11)
+Running bootstrap iteration 1/20
+Running bootstrap iteration 2/20
+Running bootstrap iteration 3/20
+Running bootstrap iteration 4/20
+Running bootstrap iteration 5/20
+Running bootstrap iteration 6/20
+Running bootstrap iteration 7/20
+Running bootstrap iteration 8/20
+Running bootstrap iteration 9/20
+Running bootstrap iteration 10/20
+Running bootstrap iteration 11/20
+Running bootstrap iteration 12/20
+Running bootstrap iteration 13/20
+Running bootstrap iteration 14/20
+Running bootstrap iteration 15/20
+Running bootstrap iteration 16/20
+Running bootstrap iteration 17/20
+Running bootstrap iteration 18/20
+Running bootstrap iteration 19/20
+Running bootstrap iteration 20/20
+
+===== Weight Statistics for W_est (non-zero values) =====
+Min: -0.2, Max: 0.87, Mean: 0.38, Median: 0.4
+
+===== Estimated Weight Matrix continous values (W_est) =====
+[[ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.87  0.    0.    0.    0.   -0.2   0.    0.    0.    0.    0.  ]
+ [ 0.    0.13  0.    0.69  0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.11  0.    0.    0.45  0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.57  0.    0.    0.    0.57  0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.13]
+ [ 0.    0.29  0.82  0.   -0.17  0.    0.    0.    0.78  0.    0.36]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]]
+
+===== Estimated Weight Matrix Binary mapped values (W_est_binary) =====
+[[0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 1.]
+ [0. 1. 1. 0. 1. 0. 0. 0. 1. 0. 1.]
+ [0. 0. 0. 0. 0. 0. 0. 0. 0. 0. 0.]]
+
+===== Estimated Weight Matrix Bootstrapped (W_est_bootstrapped) =====
+[[ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.88  0.    0.    0.    0.   -0.18  0.    0.    0.    0.16  0.  ]
+ [ 0.    0.    0.    0.59  0.    0.    0.14  0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.43  0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.56  0.    0.    0.    0.2   0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.11]
+ [ 0.    0.    0.7   0.    0.    0.    0.2   0.    0.78  0.    0.28]
+ [ 0.    0.    0.    0.    0.    0.    0.    0.    0.    0.    0.  ]]
+Accuracies W_Est continuous: fdr: 0.86, tpr: 0.22, fpr: 0.32, shd: 22.00, nnz: 14.00
+Accuracies W_est_binary: fdr: 0.86, tpr: 0.22, fpr: 0.32, shd: 22.00, nnz: 14.00
+Accuracies W_Est bootstrapped: fdr: 0.85, tpr: 0.22, fpr: 0.30, shd: 20.00, nnz: 13.00
+Total execution time: 0:01:33 (format: H:MM:SS)
