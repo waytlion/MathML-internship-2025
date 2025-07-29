@@ -3,26 +3,6 @@ Results will be saved to: D:\Data\studium\Master\2_semester\math_ml\notears\cyto
 Original dataset shape: (7466, 11)
 Adjacency matrix: (11, 11)
  dataset shape after subsampling: (100, 11)
-Running bootstrap iteration 1/20
-Running bootstrap iteration 2/20
-Running bootstrap iteration 3/20
-Running bootstrap iteration 4/20
-Running bootstrap iteration 5/20
-Running bootstrap iteration 6/20
-Running bootstrap iteration 7/20
-Running bootstrap iteration 8/20
-Running bootstrap iteration 9/20
-Running bootstrap iteration 10/20
-Running bootstrap iteration 11/20
-Running bootstrap iteration 12/20
-Running bootstrap iteration 13/20
-Running bootstrap iteration 14/20
-Running bootstrap iteration 15/20
-Running bootstrap iteration 16/20
-Running bootstrap iteration 17/20
-Running bootstrap iteration 18/20
-Running bootstrap iteration 19/20
-Running bootstrap iteration 20/20
 
 ===== Weight Statistics for W_est (non-zero values) =====
 Min: -0.2, Max: 0.87, Mean: 0.38, Median: 0.4
