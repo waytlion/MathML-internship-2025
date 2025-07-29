@@ -1,3 +1,6 @@
+# Repo Owners:
+- Group 4 | Aaron Zumdick | Tilman Bockhacker
+
 # Disclaimer: This work is primarily a small extension of the work by:
 ```
 @inproceedings{zheng2018dags,
@@ -7,6 +10,7 @@
     year = {2018}
 }
 ```
+
 # This Repo / Our Analysis 
 1. **Weight Range Analysis**: This directory contains the code and results from running the NOTEARS linear algorithm with different weight ranges and our bootstrap aggregation (bagging) implementation. We investigate how different weight initializations affect the structure learning performance.
 
@@ -14,7 +18,9 @@
 
 3. **Visualization**: The `visualize_results.py` script generates plots to compare the performance metrics (FDR, TPR, FPR, SHD) between standard NOTEARS and our bootstrap implementation across different experimental settings.
 
-4. **Scientific Computing Cluster Implementation**
+4. **Weight Cutoff Optimization**: This directory contains a precompiled Jupyter notebook to investigate the optimal value for the weight cutoff threshold. We improved upon the static threshold value of 0.3 by developing a data-driven approach for finding the optimal threshold. For this purpose, we introduced a new evaluation metric.
+
+5. **Scientific Computing Cluster Implementation**
 -  This directory contains two shell scripts (`slurm_weight_ranges.sh`, `slurm_cyto_analysis.sh`) which can be used to execute the experiments on the Scientific Computing Cluster at the University of Leipzig
 - The scripts are configured to automatically generate visualizations after successful execution 
 
