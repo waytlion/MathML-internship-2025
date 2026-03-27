@@ -1,16 +1,9 @@
 # Repo Owners:
 - Group 4 | Aaron Zumdick | Tilman Bockhacker
 
-# Disclaimer: This work is primarily a small extension of the work by:
-```
-@inproceedings{zheng2018dags,
-    author = {Zheng, Xun and Aragam, Bryon and Ravikumar, Pradeep and Xing, Eric P.},
-    booktitle = {Advances in Neural Information Processing Systems},
-    title = {{DAGs with NO TEARS: Continuous Optimization for Structure Learning}},
-    year = {2018}
-}
-```
-
+# Project Report
+- pdf report under ./report/
+  
 # This Repo / Our Analysis 
 1. **Weight Range Analysis**: This directory contains the code and results from running the NOTEARS linear algorithm with different weight ranges and our bootstrap aggregation (bagging) implementation. We investigate how different weight initializations affect the structure learning performance.
 
@@ -25,3 +18,12 @@
 - The scripts are configured to automatically generate visualizations after successful execution 
 
 
+# Disclaimer: This work is an extension of the work by:
+```
+@inproceedings{zheng2018dags,
+    author = {Zheng, Xun and Aragam, Bryon and Ravikumar, Pradeep and Xing, Eric P.},
+    booktitle = {Advances in Neural Information Processing Systems},
+    title = {{DAGs with NO TEARS: Continuous Optimization for Structure Learning}},
+    year = {2018}
+}
+```
