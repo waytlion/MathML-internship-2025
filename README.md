@@ -2,7 +2,7 @@
 - Group 4 | Aaron Zumdick | Tilman Bockhacker
 
 # Project Report
-- pdf report under ./report/
+- ./Math_and_ML_report.pdf
   
 # This Repo / Our Analysis 
 1. **Weight Range Analysis**: This directory contains the code and results from running the NOTEARS linear algorithm with different weight ranges and our bootstrap aggregation (bagging) implementation. We investigate how different weight initializations affect the structure learning performance.
