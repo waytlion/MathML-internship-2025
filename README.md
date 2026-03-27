@@ -18,6 +18,70 @@
 - The scripts are configured to automatically generate visualizations after successful execution 
 
 
+# Usage
+
+## Installation
+
+Clone the repository and install the required dependencies:
+
+```bash
+git clone https://github.com/waytlion/MathML-internship-2025.git
+cd MathML-internship-2025
+pip install -r requirements.txt
+```
+
+> **Note:** The `notears` package is installed directly from a pinned commit of the fork used by this project (see `requirements.txt`).
+
+## Running the Weight Range Analysis
+
+This experiment evaluates how different weight initializations affect NOTEARS structure learning, with and without bootstrap aggregation.
+
+```bash
+python weight_range_analysis/main.py
+```
+
+Results are saved to `weight_range_analysis/detailed_results/` and summary CSVs are written to the project root (`summary_no_bootstrap.csv`, `summary_with_bootstrap.csv`).
+
+To generate visualization plots after the experiment completes:
+
+```bash
+python weight_range_analysis/visualize_results.py
+```
+
+## Running the Cytometry Analysis
+
+This experiment applies the bootstrap NOTEARS implementation to the Sachs et al. (2005) cytometry dataset.
+
+```bash
+python cyto_analysis/main.py
+```
+
+Results (estimated weight matrices and accuracy CSVs) are saved to `cyto_analysis/detailed_results/`. A timestamped log file is also created in that directory.
+
+## Running the Weight Cutoff Optimization
+
+Open the precompiled Jupyter notebook to explore data-driven threshold selection:
+
+```bash
+jupyter notebook weight_cutoff_optimization/main.ipynb
+```
+
+## Running on the Scientific Computing Cluster (SLURM)
+
+Submit the SLURM job scripts from the repository root after activating your virtual environment:
+
+```bash
+# Weight range analysis
+sbatch run_on_cluster/slurm_weight_ranges.sh
+
+# Cytometry analysis
+sbatch run_on_cluster/slurm_cyto_analysis.sh
+```
+
+The weight-range script automatically runs `visualize_results.py` upon successful completion. Logs are written to `notears.out` / `notears.err`.
+
+---
+
 # Disclaimer: This work is an extension of the work by:
 ```
 @inproceedings{zheng2018dags,
