@@ -3,7 +3,14 @@
 
 # Project Report
 - ./Math_and_ML_report.pdf
-  
+
+# Abstract:
+In this internship project, we investigated three aspects of the NoTEARS algorithm for causal structure learning and implemented practical improvements for challenging scenarios.
+We first validated that smaller edge weight intervals lead to worse performance due to reduced signal-to-noise ratio, leading to higher variance. 
+We then implemented bootstrap aggregation (bagging) as a variance reduction technique, which consistently improved graph recovery accuracy, especially for smaller weight ranges and limited sample sizes.
+Finally, we developed a new reconstruction error metric that penalizes false positive edges, by adding a penalty term for the wrong number of identified edges.
+We used a cross-validation approach for automatically selecting the cutoff parameter leading to improved performance on graphs with small dependencies.
+
 # This Repo / Our Analysis 
 1. **Weight Range Analysis**: This directory contains the code and results from running the NOTEARS linear algorithm with different weight ranges and our bootstrap aggregation (bagging) implementation. We investigate how different weight initializations affect the structure learning performance.
 
